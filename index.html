@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rebound: get your money back on track</title>
+  <meta name="description" content="Rebound is a personal-finance app for households catching up on bills and debt: budgets, bill reminders, cash-flow forecasts and debt payoff plans.">
+  <link rel="icon" href="icon.png">
+  <style>
+    :root { --bg: #f6f3ec; --card: #fffdf8; --ink: #1d2421; --muted: #5f6661; --brand: #1f4d42; --gold: #f4c87a; --line: #e3ddd0; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #121614; --card: #1a201d; --ink: #e8ece9; --muted: #a3ada8; --line: #2c3530; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 ui-sans-serif, -apple-system, "Segoe UI", system-ui, Roboto, Arial, sans-serif; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 32px 16px 64px; }
+    header { display: flex; align-items: center; gap: 12px; }
+    header img { width: 40px; height: 40px; border-radius: 10px; }
+    header b { font-size: 20px; }
+    h1 { font-family: "Iowan Old Style", Palatino, Georgia, serif; font-size: clamp(32px, 6vw, 48px); line-height: 1.15; margin: 48px 0 12px; }
+    .lead { font-size: 19px; color: var(--muted); max-width: 640px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 36px 0; } @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
+    .card h2 { font-size: 17px; margin: 0 0 6px; }
+    .card p { margin: 0; color: var(--muted); font-size: 15.5px; }
+    .trust { background: var(--brand); color: #fff; border-radius: 14px; padding: 22px 24px; }
+    .trust h2 { margin: 0 0 8px; font-size: 19px; color: var(--gold); }
+    .trust ul { margin: 0; padding-left: 20px; }
+    footer { margin-top: 40px; color: var(--muted); font-size: 14px; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header><img src="icon.png" alt=""><b>Rebound</b></header>
+    <h1>Get your money back on track, together.</h1>
+    <p class="lead">Rebound helps households catching up on bills and debt see the whole picture: what's due, what's safe to spend, and the fastest way out of debt. It's built for couples and families who share the work.</p>
+    <div class="grid">
+      <div class="card"><h2>Bills and reminders</h2><p>Every bill on one calendar, reminders before they're due, and a warning when cash will run short.</p></div>
+      <div class="card"><h2>Debt payoff plans</h2><p>Snowball or avalanche plans with real interest rates, minimums and due dates, plus tools for collections.</p></div>
+      <div class="card"><h2>Budgets that fit</h2><p>See where the money goes, find subscriptions you forgot, and give every dollar a job.</p></div>
+      <div class="card"><h2>Credit and help</h2><p>Track credit scores, plan what moves them, and find tax credits and programs you may qualify for.</p></div>
+    </div>
+    <div class="trust">
+      <h2>How Rebound treats your data</h2>
+      <ul>
+        <li>Bank connections are read-only. Rebound can never move money.</li>
+        <li>We never sell your data or use it for advertising.</li>
+        <li>Data is encrypted in transit and at rest, and each household has its own encryption key.</li>
+        <li>You can disconnect a bank, download your data or delete your account at any time.</li>
+      </ul>
+    </div>
+    <footer>
+      <p>Rebound is in private testing and opening to the public soon. Rebound gives general information to help you organize your finances; it is not financial, legal or tax advice.</p>
+      <p>Questions or privacy requests: <a href="mailto:diazconsulting24@gmail.com">diazconsulting24@gmail.com</a> · © 2026 Rebound</p>
+    </footer>
+  </div>
+</body>
+</html>
